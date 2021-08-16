@@ -15,7 +15,7 @@ export const Footer = () => {
         <div className="content-foo">
           <h4>Web</h4>
           <a href="#" target="_blank">
-            Working on it
+            (Working on it)
           </a>
         </div>
       </div>

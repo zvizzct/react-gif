@@ -150,3 +150,49 @@ footer {
 .curso {
   font-size: 15px;
 }
+
+@media screen and (max-width: 900px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .section-input h2 {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .card-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .section-input h2 {
+    font-size: 2rem;
+  }
+  .phrase {
+    font-size: 1.5rem;
+  }
+  .textos-header {
+    height: 200px;
+    margin-top: 0;
+    width: 100%;
+  }
+  .textos-header h2 {
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+  .contenedor-footer {
+    flex-direction: column;
+  }
+  .content-foo {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .content-foo h4 {
+    border: none;
+  }
+  .content-foo p {
+    color: #ccc;
+    padding-bottom: 20px;
+  }
+  .titulo-final {
+    font-size: 20px;
+  }
+}
