@@ -3,8 +3,9 @@ import React from "react";
 export const GifGridItem = ({ id, title, url }) => {
   return (
     <div className="card animate__animated animate__fadeIn">
-      <h2>{title}</h2>
-      <img src={url} alt={title}></img>
+      <a href={url} className="card-link">
+        <img className="card-img" src={url} alt={title} />
+      </a>
     </div>
   );
 };
